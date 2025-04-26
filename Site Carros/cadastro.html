@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+
+<head>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="./css/cadastro.css">
+    <title>Cadastro cliente</title>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./js/cadastro.js"></script>
+</head>
+
+<body class="container-principal">
+    <div class="formulario-cadastro">
+        <form id="form-login" onsubmit="cadastro(event)">
+            <div class="imagem">
+                <img src="/img/logo2.png" alt="logo2">
+            </div>
+            <h3>CADASTRO</h3>
+
+            <input type="text" placeholder="E-mail" id="usuario" required="true" minlength="3" maxlength="50">
+            
+            <br>
+            
+            <input type="tel" placeholder="Telefone" id="telefone">
+            
+            <input type="password" placeholder="Senha" id="senha" required="true" minlength="3" maxlength="8">
+            
+            <br>
+           
+            <a href="./index.html" id="link">Login</a><br><br>
+            
+            <input type="submit" value="Entrar" onclick="cadastro();return false;" id="botao">
+            
+            <br>
+        </form>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+
+</html>

@@ -1,0 +1,57 @@
+.container-principal {
+    background-image: url(/img/fundo\ cinza.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.formulario-cadastro {
+    background-color: #ccc;
+    margin-top: 94px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px black(0, 0, 0, 1);
+    width: 350px;
+}
+
+.imagem img {
+    height: 116px;
+    border-radius: 100px;
+    width: 35%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="tel"] {
+
+    width: 85%;
+    padding: 15px;
+    margin: 10px;
+    border: 3px solid black;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+input[type="submit"] {
+    width: 95%;
+    padding: 15px;
+    background-color: #252424;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: black;
+}
+
+#link {
+    color: blue;
+    margin-left: 16px;
+}

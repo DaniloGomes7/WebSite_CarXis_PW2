@@ -1,0 +1,97 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.container {
+    display: flexbox;
+    min-height: 150px;
+    padding: 1px;
+
+}
+
+.corpo {
+    background-image: url(/img/fundo\ cinza.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+
+}
+
+.menu {
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    margin-bottom: 12px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+#menu-horizontal li {
+
+    display: inline-block;
+    color: aliceblue;
+    list-style-type: none;
+    font-size: 23px;
+}
+
+#menu-horizontal li a {
+
+    margin: 20px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    padding: 18px;
+}
+
+#menu-horizontal li a:hover {
+
+    background-color: rgba(255, 25, 0, 0.642);
+    border-radius: 40px;
+    transition: background .4s;
+    cursor: pointer;
+}
+
+.endereco {
+    color: white;
+    align-items: center;
+    margin: 0 auto;
+    display: inline-block;
+}
+
+img {
+    display: inline;
+    width: 400px;
+    height: 100%;
+
+    margin-left: 560px;
+}
+
+h1 {
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    padding: 1px;
+    color: aliceblue;
+    margin-left: 560px;
+}
+
+h2 {
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    padding: 1px;
+    color: rgb(255, 0, 0);
+    margin-left: 590px;
+    margin-top: 70px;
+    margin-bottom: 10px;
+}
+
+strong {
+    color: rgb(222, 10, 10);
+    font-size: 28px;
+}
+
+#home {
+    font-size: 32px;
+}
