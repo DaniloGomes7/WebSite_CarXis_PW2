@@ -7,12 +7,12 @@
 }
 
 .formulario-cadastro {
-    background-color: #ccc;
-    margin-top: 94px;
-    padding: 20px;
-    border-radius: 15px;
-    box-shadow: 0 4px black(0, 0, 0, 1);
-    width: 350px;
+    background-color: #ffffff;
+    padding : 25px;
+    border-radius: 10px;
+    margin-top: 120px;
+    box-shadow: 4px 4px 4px rgb(255, 255, 255);
+    width : 350px
 }
 
 .imagem img {

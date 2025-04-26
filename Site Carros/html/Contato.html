@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CONTATO</title>
+    <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
     <link rel="stylesheet" href="/css/contato.css">
 
 </head>
@@ -15,12 +16,29 @@
             <ul id="menu-horizontal">
                 <li><a href="/html/SobreNos.html">QUEM SOMOS </a></li>
                 <li><a href="/html/Contato.html"> CONTATO </a></li>
-                <li><a href="/html/home.html" id="home"> INICIO </a></li>
+                <li ><a href="/html/home.html" id="home"> INICIO </a></li>
                 <li><a href="/html/Produtos.html"> PRODUTOS </a></li>
                 <li><a href="/html/Endereco.html"> ENDEREÇO </a></li>
-            </ul>
         </div>
+        <div class="principal">  
+            <div class="formulario">
+                
+                <form id="form-login"  >
+                    <img src="/img/logo2.png" alt="envelope" id="envelope">
+                    <h3>CONTATO</h3>
+                    
+                    <input type="text" placeholder="Informe o nome de usuario" id="usuario" required="true" minlength="3" maxlength="155">
+                    <br>
+                    <input type="text" placeholder="Informe seu email" id="email">
+                    <input type="text" placeholder="Informe o motivo do contato" id="motivo" required="true" minlength="3" maxlength="500">
+                    <br>
+                    <input type="submit" value="Enviar" id="botao">
+                    <br>
         
+                </form>
+            </div>
+        </div>  
     </div>
+   
 </body>
 </html>
