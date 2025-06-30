@@ -12,7 +12,7 @@
 }
 
 .corpo {
-    background-image: url(/img/fundo\ cinza.jpg);
+    background-image: url(../img/fundo\ cinza.jpg);
     background-size: auto;
     background-repeat: no-repeat;
 
@@ -23,7 +23,7 @@
     text-align: center;
     margin-bottom: 12px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    
+
 }
 
 
@@ -158,27 +158,27 @@ p {
 }
 
 #img1 {
-    background-image: url(/img/Porsche\ 718.jpg);
+    background-image: url(../img/Porsche\ 718.jpg);
 }
 
 #img2 {
-    background-image: url(/img/Porsche\ 911.jpg);
+    background-image: url(../img/Porsche\ 911.jpg);
 }
 
 #img3 {
-    background-image: url(/img/Ferrari\ 488.jpg);
+    background-image: url(../img/Ferrari\ 488.jpg);
 }
 
 #img4 {
-    background-image: url(/img/Aston\ Martin\ DBS.jpg);
+    background-image: url(../img/Aston\ Martin\ DBS.jpg);
 }
 
 #img5 {
-    background-image: url(/img/Lamborghini\ Aventador.jpg);
+    background-image: url(../img/Lamborghini\ Aventador.jpg);
 }
 
 #img6 {
-    background-image: url(/img/Chevrole\ Corvette.jpg);
+    background-image: url(../img/Chevrole\ Corvette.jpg);
 }
 
 footer {
@@ -189,6 +189,7 @@ footer {
     text-align: center;
 
 }
-#home{
+
+#home {
     font-size: 32px;
 }

@@ -12,7 +12,7 @@
 }
 
 .corpo {
-    background-image: url(/img/fundo\ cinza.jpg);
+    background-image: url(../img/fundo\ cinza.jpg);
     background-size: auto;
     background-repeat: no-repeat;
 
@@ -53,15 +53,15 @@
 }
 
 img {
-    float: left; 
+    float: left;
     width: 400px;
-    border-radius: 1000px; 
-    height: 100%; 
-    margin-right: 140px; 
+    border-radius: 1000px;
+    height: 100%;
+    margin-right: 140px;
     margin-left: 30px;
 }
 
-#h1-box{
+#h1-box {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 70px;
     margin-left: 20px;
@@ -71,7 +71,7 @@ img {
 }
 
 
-#home{
+#home {
     font-size: 32px;
 }
 
@@ -154,51 +154,51 @@ p {
 }
 
 #img1 {
-    background-image: url(/img/Porsche\ 718.jpg);
+    background-image: url(../img/Porsche\ 718.jpg);
 }
 
 #img2 {
-    background-image: url(/img/Porsche\ 911.jpg);
+    background-image: url(../img/Porsche\ 911.jpg);
 }
 
 #img3 {
-    background-image: url(/img/Ferrari\ 488.jpg);
+    background-image: url(../img/Ferrari\ 488.jpg);
 }
 
 #img4 {
-    background-image: url(/img/Aston\ Martin\ DBS.jpg);
+    background-image: url(../img/Aston\ Martin\ DBS.jpg);
 }
 
 #img5 {
-    background-image: url(/img/Lamborghini\ Aventador.jpg);
+    background-image: url(../img/Lamborghini\ Aventador.jpg);
 }
 
 #img6 {
-    background-image: url(/img/FerrariSpides.jpg);
+    background-image: url(../img/FerrariSpides.jpg);
 }
 
 #img7 {
-        background-image: url(/img/Chevrole\ Corvette.jpg);
+    background-image: url(../img/Chevrole\ Corvette.jpg);
 }
 
 #img8 {
-    background-image: url(/img/fordGt.jpg);
+    background-image: url(../img/fordGt.jpg);
 }
 
 #img9 {
-    background-image: url(/img/lamborghini\ urus.jpg);
+    background-image: url(../img/lamborghini\ urus.jpg);
 }
 
 #img10 {
-    background-image: url(/img/land\ roverr.jpg);
+    background-image: url(../img/land\ roverr.jpg);
 }
 
 #img11 {
-    background-image: url(/img/mercedegm3.jpg);
+    background-image: url(../img/mercedegm3.jpg);
 }
 
 #img12 {
-    background-image: url(/img/mercedesgt63.jpg);
+    background-image: url(../img/mercedesgt63.jpg);
 }
 
 footer {
@@ -209,6 +209,7 @@ footer {
     text-align: center;
 
 }
-#home{
+
+#home {
     font-size: 32px;
 }

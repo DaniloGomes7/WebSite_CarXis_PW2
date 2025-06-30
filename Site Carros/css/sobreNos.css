@@ -12,7 +12,7 @@
 }
 
 .corpo {
-    background-image: url(/img/fundo\ cinza.jpg);
+    background-image: url(../img/fundo\ cinza.jpg);
     background-size: auto;
     background-repeat: no-repeat;
 
@@ -53,16 +53,16 @@
 }
 
 img {
-    float: left; 
+    float: left;
     width: 400px;
-    border-radius: 1000px; 
-    height: 100%; 
-    margin-right: 140px; 
+    border-radius: 1000px;
+    height: 100%;
+    margin-right: 140px;
     margin-left: 30px;
 }
 
 
-h3{
+h3 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 20px;
     padding: 1px;
@@ -70,11 +70,11 @@ h3{
     color: aliceblue;
 }
 
-strong{
+strong {
     color: rgb(222, 10, 10);
     font-size: 28px;
 }
-#home{
+
+#home {
     font-size: 32px;
 }
-

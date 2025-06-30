@@ -1,4 +1,4 @@
-function logar(event){
+function logar(event) {
     //impede o envio normal do formulário
     //força a chamada a passar pelo "modal"
 
@@ -7,7 +7,7 @@ function logar(event){
     var usuario = document.getElementById('usuario').value;
     var senha = document.getElementById('senha').value;
 
-    if(usuario == 'admin' && senha == 'admin'){  
+    if (usuario == 'admin' && senha == 'admin') {
         Swal.fire({
             title: 'Login efetuado!',
             text: 'Bem-vindo, ' + usuario + '!',
@@ -15,10 +15,10 @@ function logar(event){
             confirmButtonText: "OK"
         }).then(() => {
             setTimeout(() => {
-                location.href="./html/home.html";
+                location.href = "./html/home.html";
             }, 100);
         });
-    }else{
+    } else {
         Swal.fire({
             title: 'Erro!',
             text: 'Usuario ou senha incorretos',
@@ -28,3 +28,4 @@ function logar(event){
         });
     }
 }
+// ./html/home.html

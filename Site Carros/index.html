@@ -1,33 +1,36 @@
 <html>
-    <head>
-        <title>Tela de login</title>
-        <!--Seta o unicode do site para o padrao BR-->
-        <meta charset="UTF-8"/>
 
-        <link rel="stylesheet" type="text/css" href="./css/index.css">
+<head>
+    <title>Tela de login</title>
+    <!--Seta o unicode do site para o padrao BR-->
+    <meta charset="UTF-8" />
 
-        <script src="./js/index.js"></script>
+    <link rel="stylesheet" type="text/css" href="./css/index.css">
 
-        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./js/index.js"></script>
 
-    </head>
-    <body>
-        <div class="container-principal">
-            <div class="formulario">
-                <form id="form-login" onsubmit="logar(event)">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
-                    <h3>ETEC Uirapuru</h3>
-                    
-                    <input type="text" placeholder="Usuario" id="usuario" required="true" minLength="2" maxLength="8"/>
-                    
-                    <input type="password" placeholder="Senha" id="senha" required="true" minLength="2" maxLength="8"/>
-                    
-                    <input type="submit" value="Entrar" onclick="logar();return false"/>
+</head>
 
-                    <a href="./cadastro.html">Criar conta</a>
+<body>
+    <div class="container-principal">
+        <div class="formulario">
+            <form id="form-login" onsubmit="logar(event)">
 
-                </form>
-            </div>    
-        </div> 
-    </body>
+                <h3>ETEC Uirapuru</h3>
+
+                <input type="text" placeholder="Usuario" id="usuario" required="true" minLength="2" maxLength="8" />
+
+                <input type="password" placeholder="Senha" id="senha" required="true" minLength="2" maxLength="8" />
+
+                <input type="submit" value="Entrar" onclick="logar();return false" />
+
+                <a href="./html/Cadastro.html">Criar conta</a>
+
+            </form>
+        </div>
+    </div>
+</body>
+
 </html>
