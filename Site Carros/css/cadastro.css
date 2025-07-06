@@ -10,8 +10,7 @@
     background-color: #ffffff;
     padding: 25px;
     border-radius: 10px;
-    margin-top: 120px;
-    box-shadow: 4px 4px 4px rgb(255, 255, 255);
+    margin-top: 100px;
     width: 350px
 }
 
@@ -24,7 +23,7 @@
     margin-right: auto;
 }
 
-input[type="text"],
+input[type="email"],
 input[type="text"],
 input[type="password"] {
 

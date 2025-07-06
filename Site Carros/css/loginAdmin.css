@@ -1,0 +1,59 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.container-principal {
+    background-image: url(../img/fundo\ cinza.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.formulario {
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px rgb(255, 255, 255);
+    width: 350px
+}
+
+form h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(0, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+input[ type="text"],
+input[ type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #9c9c9c;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 15px;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    margin: 20px 0;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(94, 94, 94);
+    padding: 15px;
+    font-size: 15px;
+    color: #000000;
+}

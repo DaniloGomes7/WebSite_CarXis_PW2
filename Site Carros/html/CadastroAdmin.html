@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Admin</title>
+    <link rel="stylesheet" href="../css/cadastro.css">
+    
+</head>
+
+<body class="container-principal">
+    <div class="formulario-cadastro">
+        <form id="form-login" method="POST" action="../php/CadastroAdmin.php">
+            <div class="imagem">
+                <img src="../img/logo2.png" alt="logo2">
+            </div>
+            <h3>Cadastro Administrador</h3>
+            <input type="text" name="email" placeholder="Email:" id="email" required="true"><br>
+
+            <input type="text" name="nome" placeholder="Nome:" id="nome" required="true"><br>
+
+            <input type="text" name="numero_cracha" placeholder="Numero Crachá:" id="cracha" required="true"><br>
+
+            <input type="password" name="senha" placeholder="Senha:" id="senha" required="true"><br>
+
+            <input type="submit" value="Cadastrar">
+            <br>   
+        </form>
+    </div>
+</body>
+
+</html>

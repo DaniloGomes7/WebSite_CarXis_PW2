@@ -1,59 +1,52 @@
-* {
-    margin: 0px;
-    padding: 0px;
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.container-principal {
+html, body {
+    height: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
     background-image: url(../img/fundo\ cinza.jpg);
+    background-size: cover;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
+    padding-top: 150px;
     height: 100%;
 }
 
-.formulario {
-    background-color: #ffffff;
-    padding: 25px;
-    border-radius: 10px;
-    box-shadow: 4px 4px 4px rgb(255, 255, 255);
-    width: 350px
-}
-
-form h3 {
-    text-align: center;
-    margin-bottom: 20px;
-    color: rgb(0, 0, 0);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: bold;
-    font-size: 25px;
-}
-
-input[ type="text"],
-input[ type="password"] {
-    width: 100%;
-    padding: 10px;
-    margin: 10px 0;
-    border: 2px solid #9c9c9c;
-    border-radius: 5px;
-    font-size: 18px;
-}
-
-input[type="submit"] {
-    width: 100%;
-    padding: 15px;
-    background-color: #000000;
+.container h3 {
+    font-size: 50px;
     color: rgb(255, 255, 255);
-    border: none;
-    border-radius: 5px;
-    margin: 20px 0;
-    font-size: 15px;
-    cursor: pointer;
+    margin-bottom: 30px;
+    text-align: center;
 }
 
-input[type="submit"]:hover {
-    background-color: rgb(94, 94, 94);
+.escolhaPerfil {
+    background-color: white;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+
+input[type="button"] {
     padding: 15px;
-    font-size: 15px;
-    color: #000000;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 2px solid gray;
+    border-radius: 10px;
+    background-color: #000000;
+    color: rgb(240, 234, 234);
+    cursor: pointer;
+    width: 250px;
 }

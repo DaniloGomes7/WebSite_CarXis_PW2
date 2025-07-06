@@ -1,36 +1,17 @@
-<html>
-
+<!DOCTYPE html>
+<html lang="pt-br">
 <head>
-    <title>Tela de login</title>
-    <!--Seta o unicode do site para o padrao BR-->
-    <meta charset="UTF-8" />
-
-    <link rel="stylesheet" type="text/css" href="./css/index.css">
-
-    <script src="./js/index.js"></script>
-
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-
+    <meta charset="UTF-8">
+    <title>Perfil</title>
+    <link rel="stylesheet" href="./css/index.css">
 </head>
-
 <body>
-    <div class="container-principal">
-        <div class="formulario">
-            <form id="form-login" onsubmit="logar(event)">
-
-                <h3>ETEC Uirapuru</h3>
-
-                <input type="text" placeholder="Usuario" id="usuario" required="true" minLength="2" maxLength="8" />
-
-                <input type="password" placeholder="Senha" id="senha" required="true" minLength="2" maxLength="8" />
-
-                <input type="submit" value="Entrar" onclick="logar();return false" />
-
-                <a href="./html/Cadastro.html">Criar conta</a>
-
-            </form>
+    <div class="container">
+        <h3>Escolha o tipo de Perfil</h3> 
+        <div class="escolhaPerfil">
+            <input type="button" value="CLIENTE" onclick="location.href='./html/LoginCliente.html'">
+            <input type="button" value="ADMINISTRADOR" onclick="location.href='./html/LoginAdmin.html'">
         </div>
     </div>
 </body>
-
 </html>

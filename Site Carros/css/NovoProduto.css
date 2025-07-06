@@ -1,0 +1,65 @@
+.container-principal {
+    background-image: url(../img/fundo\ cinza.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+.formulario-produto {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+    width: 400px;
+}
+
+.formulario-produto h1 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #000000;
+    font-size: 24px;
+}
+
+.formulario-produto input[type="text"],
+.formulario-produto input[type="number"],
+.formulario-produto textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.formulario-produto textarea {
+    height: 100px;
+    resize: none;
+}
+
+.formulario-produto input[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    margin-top: 15px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.formulario-produto input[type="submit"]:hover {
+    background-color: #888888;
+    color: #000000;
+}
+
+.formulario-produto a {
+    display: block;
+    margin-top: 15px;
+    text-align: center;
+    text-decoration: none;
+    color: #0000ee;
+    font-size: 14px;
+}

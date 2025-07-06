@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/NovoProduto.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salvar Produto</title>
+</head>
+
+<body class="container-principal">
+    <div class="formulario-produto">
+        <h1>Cadastrar Novo Produto</h1>
+        <form method="POST" action="../php/salvarProduto.php">
+            <input type="text" placeholder="Nome" name="nome" required>
+            <textarea name="descricao" placeholder="Descrição" required></textarea>
+            <input type="number" placeholder="Preço" name="preco" required>
+            <input type="text" placeholder="Imagem (nome do arquivo):" name="imagem" required>
+            <input type="submit" value="Salvar Produto">
+        </form>
+        <a href="../php/ProdutosAdm.php">Voltar à lista</a>
+    </div>
+</body>
+
+</html>
